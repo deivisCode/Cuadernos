@@ -35,7 +35,7 @@ Si esto lo sustituimos en @eq:expA, tenemos que
 $ exp A = mat(1,0;0,1) sum_(n=0)^infinity (phi^(2n))/((2n)!) + mat(0,1;-1,0) sum_(n=0)^infinity (phi^(2n+1))/((2n+1)!) $
 tal que 
 
-$ sum_(n=0)^infinity(phi^(2n))/((2n)!) = cos phi quad quad sum_(n=0)^infinity(phi^(2n+1))/((2n+1)!) = sin phi $
+$ sum_(n=0)^infinity (phi^(2n))/((2n)!) = cos phi quad quad sum_(n=0)^infinity (phi^(2n+1))/((2n+1)!) = sin phi $
 
 de lo que se deduce  que 
 

@@ -39,6 +39,7 @@ La tabla de multiplicación es:
 ]
 donde hemos supusto que multiplica por la izquierda primero, así pues 
 
+// You might as well create a function to draw cayley diagrams...
 #align(center)[
   #table(
     columns: 2,
@@ -96,7 +97,7 @@ Si comparámos esta tabla con $D_3$ encontramos la relación $f:D_3 arrow S_3$ t
 
 $ e arrow () quad x arrow (12) quad y arrow (23) quad z arrow (31) quad c arrow (123) quad c^2 arrow (132) $
 
-vemos que se preserva tanto la tabla de multiplicación, lo que implica qeu es un homomorfismo. Además, dado que $f(e) = ()$ es inyectivo (i.e. $"ker(f)=e"$), y como $"Im"(f)=S_3$, también es sobreyectivo. Por ser homomorfismo y biyectivo, $D_3$ y $S_3$ son isomorfos. 
+vemos que se preserva tanto la tabla de multiplicación, lo que implica qeu es un homomorfismo. Además, dado que $f(e) = ()$ es inyectivo (i.e. $"ker"(f)=e$), y como $"Im"(f)=S_3$, también es sobreyectivo. Por ser homomorfismo y biyectivo, $D_3$ y $S_3$ son isomorfos. 
 
 //==================================
 // -- EJERCICIO 3 -------------------
@@ -425,7 +426,7 @@ $ Lambda =  mat(un_1, un_2, un_3) $
 y por ser una matriz cambio de base tiene varias propiedades. La primera: que es especial (determinante 1) y que es unitaria, y por tanto
 
 $ Lambda^(-1) = Lambda^dagger  = mat(un_1^*;un_2^*; un_3^*)  $
-que al verificar $Lambda^-1 Lambda = II$, nos lleva a las relacioens: 
+que al verificar $Lambda^(-1) Lambda = II$, nos lleva a las relacioens: 
 
 $ un_1^* dot un_1 = 1, quad un_2^* dot un_2 = 1, quad
 un_3^* dot un_3 = 1 $

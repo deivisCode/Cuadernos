@@ -7,7 +7,7 @@ En los grupos continuos los elementos pueden parametrizarse en un entorno pueden
 
 #v(1em)
 
-Es evidente que no podemos escribir una tabla de multiplicar en el mismo sentido que para un grupo finito. Si el producto $g(xn)$ por ($g(yn)$) es $g(zn)$ tenemos qeu 
+Es evidente que no podemos escribir una tabla de multiplicar en el mismo sentido que para un grupo finito. Si el producto $g(xn)$ por ($g(yn)$) es $g(zn)$ tenemos qeu
 
 $ g(x_1,x_2,...,x_d)g(y_1,y_2,...,y_d) = g(z_1,z_2,...,z_d) $
 
@@ -15,7 +15,7 @@ entonces los parámetros $z_1,...,z_d$ son funciones de $x_i,y_i$. Es decir, la 
 
 #v(1em)
 
-Las propiedades que definen un grupo imponen restricciones sobre las posibles funciones $f_i$. La más severa es la que proviene de la asociatividad: 
+Las propiedades que definen un grupo imponen restricciones sobre las posibles funciones $f_i$. La más severa es la que proviene de la asociatividad:
 
 $(g(xn)g(yn))g(zn) = g(xn)(g(yn)g(zn)$
 
@@ -23,11 +23,11 @@ $(g(xn)g(yn))g(zn) = g(xn)(g(yn)g(zn)$
   Un *grupo de Lie* es un grupo continuo en el cual las funciones $f_i$ que expresan las multiplicaciones a parte de satisfacer los requisitos que provienen de las proviedades de grupo son $C^infinity$ (contínuas e infinitamente derivables)
 ]
 
-== Represetnaciones de Grupos de Lie 
+== Represetnaciones de Grupos de Lie
 
-=== Grupos Unitarios 
+=== Grupos Unitarios
 
-=== Grupos Ortogonales 
+=== Grupos Ortogonales
 
 == Estructura Local de los Grupos de Lie
 
@@ -48,20 +48,20 @@ El concepto álgebra de Lie es una definción abstracta qeu en cada caso requier
 
 #v(1em)
 
-Dada una base $L_1,..,L_d$, un álgebra de Lie viene especificada por un conjunto de $d^3$ números $f_(i j)^k$ denominados *constantes de estructura* que se definen según la siguiente expresión: 
+Dada una base $L_1,..,L_d$, un álgebra de Lie viene especificada por un conjunto de $d^3$ números $f_(i j)^k$ denominados *constantes de estructura* que se definen según la siguiente expresión:
 
-$ [L_i,L_j] = sum_{k=1}^d f_{i j}^k L_k quad quad quad i,j = 1,...,d$
+// h(4em) ou algo esí mellor ca 'quad quad quad'
+$ [L_i,L_j] = sum_(k=1)^d f_(i j)^k L_k quad quad quad i,j = 1,...,d$
 
-Estos números no son independientes como se deduce de las propiedades de _antisimetría e identidad de Jacobi_. 
+Estos números no son independientes como se deduce de las propiedades de _antisimetría e identidad de Jacobi_.
 
 #v(1em)
 
-Frente a cambios de bae $L_i arrow tilde(L_i)$ con $i=1,...,d$ ... 
+Frente a cambios de bae $L_i arrow tilde(L_i)$ con $i=1,...,d$ ...
 
 
 #theorem(name:"Tercer teorema de Lie")[
-  A cada grupo de Lie lineal, $G$, le corresopnde un álgebra de Lie $Lcal$ de la misma dimensión. De forma maś precisa, si $Lcal$ tiene dimensión $d$, entonces los generadores infenitesimales $L_1,...,L_d$ forman una base de $Lcal$. 
+  A cada grupo de Lie lineal, $G$, le corresopnde un álgebra de Lie $Lcal$ de la misma dimensión. De forma maś precisa, si $Lcal$ tiene dimensión $d$, entonces los generadores infenitesimales $L_1,...,L_d$ forman una base de $Lcal$.
 ]
 
 == Representaciones de Grupos y Álgebras de Lie
-
